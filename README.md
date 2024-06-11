@@ -2,6 +2,35 @@
 
 ## Overview
 This project develops a character recognition system using a Random Forest Classifier, it classifies characters from various images, crucial for applications such as automatic license plate recognition.
+## Result
+| Filename    | Identified License Plate |
+|-------------|--------------------------|
+| CIN20356.jpg | CIN20356                 |
+| CMG21FG.jpg | CMG21FG                  |
+| FSD23429.jpg | FSD23429                 |
+| PCT15PY.jpg | PCT15PY                  |
+| PGN141GR.jpg | PGN141GR                 |
+| PGN756EC.jpg | PGN756EC                 |
+| PKL8C63.jpg | PKL8C63                  |
+| PKRR788.jpg | PKRR788L                 |
+| PKS30W3.jpg | PKS30W3                  |
+| PO033AX.jpg | POO33AX                  |
+| PO096NT.jpg | PO096NT                  |
+| PO155KU.jpg | PO155KU                  |
+| PO2J735.jpg | PO2J735                  |
+| PO2W494.jpg | PO2W494                  |
+| PO522WJ.jpg | PO522WJ                  |
+| PO5T224.jpg | PO5T224                  |
+| PO6K534.jpg | PO6K534                  |
+| PO778SS.jpg | PO778SS                  |
+| POBTC81.jpg | POBTC81                  |
+| POZS221.jpg | POZS221                  |
+| PSE22800.jpg | PSE22800                 |
+| PSZ47620.jpg | PSZ47620                 |
+| PZ0460J.jpg | PZ0460                   |
+| PZ492AK.jpg | PZ492AK                  |
+| WSCUP62.jpg | WSC7UG62                 |
+| ZSL17729.jpg | ZSL17729                 |
 
 ## Methods Used
 - **Image Processing**: The images are initially processed to improve the classifier's accuracy. This involves loading images from a dataset, converting them to grayscale to reduce complexity, applying a binary threshold to separate characters from the background, and dilating to emphasize features.
