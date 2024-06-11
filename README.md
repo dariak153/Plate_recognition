@@ -12,7 +12,7 @@ This project develops a character recognition system using a Random Forest Class
 
 ## Files Overview
 - `characters_dataset/`: Contains labeled images of characters. Each label directory houses images representing a specific character, aiding in supervised learning.
-- `characters_recognizer.pkl`: This file is a serialized version of the trained Random Forest model, ready for deployment in character recognition tasks.
+- `characters_recognizer_rf.pkl`: This file is a serialized version of the trained Random Forest model, ready for deployment in character recognition tasks.
 -  `templates/`: directory contains a comprehensive template featuring all the characters used on license plates. This template is designed with a font style closely resembling that found on vehicle registration plates, making it ideal for training the character recognition system. 
 
 ## Data Preparation and Processing
