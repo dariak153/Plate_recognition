@@ -1,7 +1,9 @@
 # Character Recognition System
 
 ## Overview
-This project develops a character recognition system using a Random Forest Classifier, it classifies characters from various images, crucial for applications such as automatic license plate recognition.
+This project develops a character recognition system using a Random Forest Classifier, it classifies characters from various images, crucial for applications such as automatic license plate recognition. Below is an example of an image from the dataset used in this project:
+
+![Example Diagram](images/PKL8C63.jpg)
 ## Result
 | Filename    | Identified License Plate |
 |-------------|--------------------------|
